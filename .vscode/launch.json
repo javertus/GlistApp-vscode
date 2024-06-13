@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "lldb",
+            "request": "launch",
+            "preLaunchTask": "Build with CMake",
+            "program": "${workspaceFolder}\\build\\GlistApp",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PATH": "${env:PATH};${workspaceFolder}\\build;C:\\dev\\glist\\zbin\\glistzbin-win64\\clang64\\bin"
+            }
+        }
+    ]
+}

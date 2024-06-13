@@ -3,6 +3,5 @@
 *.project
 *.cproject
 **/_build/
-**/.vscode/
 .DS_Store
 .swp
